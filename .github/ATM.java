@@ -23,7 +23,7 @@ public class ATM {
             {
                 case D:
                     System.out.println("How much would you like to deposit today?");
-                      int depositAmmount = kb.nextInt();
+                    int depositAmmount = kb.nextInt();
                     System.out.println("Deposit to: (1) checking or (2) savings?");
                     int location = kb.nextInt();
                     

@@ -2,12 +2,6 @@ public class CheckingAccount
 {
     private int balance;
     
-    private int numberOfTransactions;
-    
-    public int transactions()
-    {
-        return numberOfTransactions = 0;
-    }
     
     public int CheckingAccount()
     {
@@ -17,7 +11,6 @@ public class CheckingAccount
     public int deposit(int x)
     {
         return balance += x;
-        numberOfTransactions += 1;
     }
     
     public int withdraw(int x)
@@ -29,7 +22,6 @@ public class CheckingAccount
         else
         {
             return balance - x;
-            numberOfTransactions += 1;
         }
     }
 }
