@@ -26,8 +26,23 @@ public class ATM {
                     int depositAmmount = kb.nextInt();
                     System.out.println("Deposit to: (1) checking or (2) savings?");
                     int location = kb.nextInt();
-                    
+                break;
                 
+                case W:
+                    System.out.println("How much would you like to withdraw today?");
+                    int depositAmmount = kb.nextInt();
+                    System.out.println("Deposit to: (1) checking or (2) savings?");
+                    int location = kb.nextInt();
+                break;
+                
+                case C:
+                    System.out.println("Your checking account has " + Checking + " creddits.");
+                    System.out.println("Your savings account has " + Savings + " creddits.");
+                break;
+                
+                case Q;
+                    run = false;
+                break;
             }
         }
     }
